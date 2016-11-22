@@ -2,9 +2,9 @@ function test{
 	var width = 1024;
 	var height = 768;
 	var ctrl = d3.select("body").append("svg").attr("width", width).attr("height", height);
-	d3.csv("./stocks.csv",
+	d3.csv("sandralut.github.io/testProject/stocks.csv",
 	      function(data) { console.log(data); });
-	d3.csv("./historical.csv", 
+	d3.csv("sandralut.github.io/testProject/historical.csv", 
 		function(data)
 		{
 			var ln = data.length;
